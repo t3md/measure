@@ -1,0 +1,32 @@
+{
+	"name": "t3md/measure",
+	"description": "TYPO3 Extension for BO-Suedhessen",
+	"license": "GPL-2.0-or-later",
+	"type": "typo3-cms-extension",
+	"keywords": [
+		"extension",
+	],
+	"authors": [
+		{
+			"name": "Michael Lang",
+			"email": "info@mediadesign-ffm.de",
+			"homepage": "https://mediadesign-ffm.de",
+			"role": "maintainer"
+		}
+	],
+	"require": {
+		"php": "~8.3.0",
+		"typo3/cms-core": "^12.4",
+		"typo3/cms-extbase": "^12.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"T3md\\Measure\\": "Classes/"
+		}
+	},
+  	"extra": {
+   		 "typo3/cms": {
+     		 "extension-key": "measure"
+    		}
+  	}
+}
