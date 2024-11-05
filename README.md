@@ -1,3 +1,3 @@
 # measure
-Measure - Extension for BO-Suedhessn
+Measure - Extension for BO-Suedhessen
 First Relaese for T12
