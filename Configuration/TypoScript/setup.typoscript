@@ -1,0 +1,27 @@
+plugin.tx_measure {
+  view {
+    templateRootPaths {
+      0 = EXT:measure/Resources/Private/Templates/
+    }
+
+    partialRootPaths {
+      0 = EXT:measure/Resources/Private/Partials/
+    }
+
+    layoutRootPaths {
+      0 = EXT:measure/Resources/Private/Layouts/
+    }
+  }
+
+  persistence {
+    storagePid = {$plugin.tx_measure.persistence.storagePid}
+  }
+
+  settings {
+    singleViewPageUid = {$plugin.tx_measure.settings.singleViewPageUid}
+  }
+}
+
+page.includeCSS{
+  measure   = EXT:measure/Resources/Public/Sass/_measure.scss
+}
