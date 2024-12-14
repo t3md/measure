@@ -1,0 +1,13 @@
+
+.singleMaesure label					{font-weight: bold;}
+
+.singleMaesure .extras					{border: 1px solid $gray-500; border-radius: $v1; padding: $v2; background: $gray-100;}
+
+.searchfieldframe					{border: 1px solid $gray-500; border-radius: $v1; padding: $v3 $v2 $v2 ; background: $gray-100;}
+
+
+
+@media screen and (min-width:  992px){
+	.measurecontent					{padding-left: 0;}
+	.measureinfos					{padding-right: 0;}
+}

@@ -1,0 +1,73 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+	<div class="searchMaesure">
+		<f:form action="search" class="searchfieldframe form-horizontal persForm mb-5" method="get" object="{searchForm}" name="searchForm">
+				
+			<div class="form-group container mb-3">
+				<div class="row">
+					<label class="col-12 col-md-2">
+						<f:translate key="searchword" />
+					</label>
+					<div class="col-12 col-md-10 mb-3">
+						<f:form.textfield class="form-control" placeholder="{f:translate(key:'searchwordplaceholder')}" property="searchWord" id="search"/>
+					</div>
+
+					<label class="col-12 col-md-2"><f:translate key="carrier" /></label>
+					<div class="col-12 col-md-10 mb-5">
+						<f:form.select class="form-select" name="carrier"  prependOptionLabel="{f:translate(key:'select')}" prependOptionValue="0" property="carrier" id="carrier" options="{carriers}" optionValueField="uid" optionLabelField="title" value="{carrier}" />
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-12 col-md-6 ps-md-0 row">
+
+					<label class="col-12 col-md-4"><f:translate key="school" /></label>
+					<div class="col-8 mb-5">
+						<f:form.select class="form-select" name="school" id="school" property="school" options="{0: 'keine Angabe', 1: 'Berufsorientierung', 2: 'Berufsvorbereitung', 3: 'Qualifizierung', 4: 'Ausbildung', 5: 'Beratung und Begleitung'}" value="{art}" />
+					</div>
+
+					<label class="col-12 col-md-4"><f:translate key="art" /></label>
+					<div class="col-8 mb-5">
+						<f:form.select class="form-select" name="art" id="art" property="art" options="{0: 'keine Angabe', 1: 'Berufsorientierung', 2: 'Berufsvorbereitung', 3: 'Qualifizierung', 4: 'Ausbildung', 5: 'Beratung und Begleitung'}" value="{art}" />
+					</div>
+
+					<label class="col-12 col-md-4"><f:translate key="gender" /></label>
+					<div class="col-8 mb-5">
+						<f:form.select class="form-select" name="gender" id="gender" property="gender" options="{0: 'keine Angabe', 1: 'weiblich', 2: 'männlich'}" value="{gender}" />
+					</div>
+
+				</div>
+				<div class="col-12 col-md-6 pe-md-0">			
+					<f:form.submit  class="btn col-3 btn-secondary me-2 mr-2" value="suchen"/>
+					<f:link.page pageUid="{data.uid}" class="btn  col-3 btn-secondary">Zurücksetzen</f:link.page>
+				</div>
+			</div>
+
+		</f:form>
+
+
+
+
+
+		<f:for each="{paginator.paginatedItems}" as="measure" iteration="iterator">
+			<f:render partial="Item" arguments="{_all}"/>
+		</f:for>
+
+
+
+		<ul class="pagination">
+			<f:for each="{pagination.allPageNumbers}" as="page">
+			<li class="page-item">
+				<f:link.action arguments="{currentPageNumber:page, actionName: 'search'}" class="page-link {f:if(condition:'{currentPageNumber}=={page}',then:'active')}">
+					{page}
+				</f:link.action>
+			</li>
+			</f:for>
+		</ul>
+	
+
+		<p><strong>{count}</strong> Ergebnisse</p>
+	</div>	
+</html>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:48:25Z" product-name="measure">
+		<header/>
+		<body>
+			<trans-unit id="plugin.measureIndex" xml:space="preserve">
+				<source>Measure</source>
+			</trans-unit>
+			<trans-unit id="plugin.list" xml:space="preserve">
+				<source>Plugin Measure</source>
+			</trans-unit>
+
+			/* Form */
+			<trans-unit id="select" xml:space="preserve">
+				<source>Select a carrier</source>
+			</trans-unit>
+			<trans-unit id="searchword" xml:space="preserve">
+				<source>Searchword</source>
+			</trans-unit>
+			<trans-unit id="searchwordpleaseholder" xml:space="preserve">
+				<source>Please searchword</source>
+			</trans-unit>			
+			<trans-unit id="art" xml:space="preserve">
+				<source>Type of offer</source>
+			</trans-unit>
+			
+			
+			
+			/* Frontend */
+
+			<trans-unit id="aims" xml:space="preserve">
+				<source>Aims</source>
+			</trans-unit>
+			<trans-unit id="aimgroup" xml:space="preserve">
+				<source>Aim group</source>
+			</trans-unit>
+			<trans-unit id="occupationalarea" xml:space="preserve">
+				<source>Occupational area</source>
+			</trans-unit>	
+			<trans-unit id="info" xml:space="preserve">
+				<source>Info</source>
+			</trans-unit>				
+				
+			<trans-unit id="name" xml:space="preserve">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="duration" xml:space="preserve">
+				<source>Duration</source>
+			</trans-unit>
+			<trans-unit id="startoffer" xml:space="preserve">
+				<source>Beginn</source>
+			</trans-unit>
+			<trans-unit id="Registration" xml:space="preserve">
+				<source>Registration</source>
+			</trans-unit>
+			<trans-unit id="finance" xml:space="preserve">
+				<source>Finance</source>
+			</trans-unit>
+			<trans-unit id="carrier" xml:space="preserve">
+				<source>Carrier</source>
+			</trans-unit>
+			<trans-unit id="contact" xml:space="preserve">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="phone" xml:space="preserve">
+				<source>Phone</source>
+			</trans-unit>		
+			<trans-unit id="email" xml:space="preserve">
+				<source>E-Mail</source>
+			</trans-unit>
+			<trans-unit id="internet" xml:space="preserve">
+				<source>website</source>
+			</trans-unit>			
+			<trans-unit id="download" xml:space="preserve">
+				<source>Download</source>
+			</trans-unit>	
+
+			<trans-unit id="searchfieds" xml:space="preserve">
+				<source>Searchfieds</source>
+			</trans-unit>
+			<trans-unit id="age" xml:space="preserve">
+				<source>Age</source>
+			</trans-unit>
+			<trans-unit id="to" xml:space="preserve">
+				<source>to</source>
+			</trans-unit>
+			<trans-unit id="migration" xml:space="preserve">
+				<source>Migration</source>
+			</trans-unit>
+			<trans-unit id="gender" xml:space="preserve">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="gender.2">
+				<source>Male</source>
+			</trans-unit>
+			<trans-unit id="gender.1">
+				<source>Female</source>
+			</trans-unit>
+			<trans-unit id="gender.0">
+				<source>Not specified</source>
+			</trans-unit>
+			<trans-unit id="migration">
+				<source>Migration background</source>
+			</trans-unit>
+			<trans-unit id="migration.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="migration.1">
+				<source>yes</source>
+			</trans-unit>
+			<trans-unit id="migration.2">
+				<source>no</source>
+			</trans-unit>
+			<trans-unit id="rights">
+				<source>Legal sphere</source>
+			</trans-unit>
+			<trans-unit id="rights.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="rights.1">
+				<source>SGB II</source>
+			</trans-unit>
+			<trans-unit id="rights.2">
+				<source>SGB III</source>
+			</trans-unit>
+			<trans-unit id="rights.3">
+				<source>SGB VIII</source>
+			</trans-unit>
+			<trans-unit id="school">
+				<source>Year of school attendance</source>
+			</trans-unit>
+			<trans-unit id="school.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="school.1">
+				<source>7-10</source>
+			</trans-unit>
+			<trans-unit id="school.2">
+				<source>Compulsory schooling fulfilled</source>
+			</trans-unit>
+			<trans-unit id="graduate">
+				<source>School-leaving certificate</source>
+			</trans-unit>
+			<trans-unit id="graduate.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="graduate.1">
+				<source>none</source>
+			</trans-unit>
+			<trans-unit id="graduate.2">
+				<source>HSA</source>
+			</trans-unit>
+			<trans-unit id="graduate.3">
+				<source>RSA</source>
+			</trans-unit>
+			<trans-unit id="graduate.4">
+				<source>Maturity/A-levels</source>
+			</trans-unit>
+			<trans-unit id="graduate.5">
+				<source>Special school certificate</source>
+			</trans-unit>	
+			<trans-unit id="ineducation">
+				<source>In Ausbildung</source>
+			</trans-unit>
+			<trans-unit id="ineducation.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="ineducation.1">
+				<source>yes</source>
+			</trans-unit>
+			<trans-unit id="ineducation.2">
+				<source>no</source>
+			</trans-unit>	
+			<trans-unit id="back">
+				<source>back</source>
+			</trans-unit>	
+			
+				
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,17 @@
+
+       <div class="mb-5">
+           <span class="p d-block">
+               <f:link.action action="show" arguments="{measure:measure}">
+               {measure.uid} {measure.title}</f:link.action> <br  />
+
+
+              
+              <f:for each="{measure.carrier}" as="carrier">
+                <if condition="{carrier.title}">
+                    {carrier.uid} - {carrier.title}
+                </if>
+                
+              </f:for>
+           </span> 
+        </div>
+							

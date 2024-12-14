@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:48:25Z" product-name="measure">
+		<header/>
+		<body>
+			<trans-unit id="plugin.measureIndex" xml:space="preserve">
+				<source>Measure</source>
+			</trans-unit>
+			<trans-unit id="plugin.list" xml:space="preserve">
+				<source>Plugin Measure</source>
+			</trans-unit>
+
+
+			/* Frontend */
+
+			<trans-unit id="aims" xml:space="preserve">
+				<source>Aims</source>
+				<target state="translated">Ziel(e)</target>
+			</trans-unit>
+			<trans-unit id="aimgroup" xml:space="preserve">
+				<source>Aim group</source>
+				<target state="translated">Zielgruppe(n)</target>
+			</trans-unit>
+			<trans-unit id="occupationalarea" xml:space="preserve">
+				<source>Occupational area</source>
+				<target state="translated">Berufsfelder</target>
+			</trans-unit>	
+			<trans-unit id="info" xml:space="preserve">
+				<source>Info</source>
+				<target state="translated">Info</target>				
+			</trans-unit>				
+			<trans-unit id="name" xml:space="preserve">
+				<source>Place</source>
+				<target state="translated">Durchführungsort</target>				
+			</trans-unit>
+			<trans-unit id="duration" xml:space="preserve">
+				<source>Duration</source>
+				<target state="translated">Durchführungsort</target>				
+			</trans-unit>
+			<trans-unit id="startoffer" xml:space="preserve">
+				<source>Beginn</source>
+			</trans-unit>
+			<trans-unit id="Registration" xml:space="preserve">
+				<source>Registration</source>
+			</trans-unit>
+			<trans-unit id="finance" xml:space="preserve">
+				<source>Finance</source>
+				<target state="translated">Finanzierung</target>				
+			</trans-unit>
+			<trans-unit id="carrier" xml:space="preserve">
+				<source>Carrier</source>
+				<target state="translated">Träger</target>				
+			</trans-unit>
+			<trans-unit id="contact" xml:space="preserve">
+				<source>contact</source>
+				<target state="Kontakt">Kontakt</target>				
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

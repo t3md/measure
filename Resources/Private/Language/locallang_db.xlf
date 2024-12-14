@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:48:25Z" product-name="measure">
+		<header/>
+		<body>
+			<trans-unit id="measure" xml:space="preserve">
+				<source>Measure</source>
+			</trans-unit>
+			<trans-unit id="tab1" xml:space="preserve">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tab2" xml:space="preserve">
+				<source>Participant</source>
+			</trans-unit>
+			<trans-unit id="tab3" xml:space="preserve">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="tab4" xml:space="preserve">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tab5" xml:space="preserve">
+				<source>Information</source>
+			</trans-unit>
+			<trans-unit id="tab5" xml:space="preserve">
+				<source>Information</source>
+			</trans-unit>
+			<trans-unit id="tab6" xml:space="preserve">
+				<source>Personal information</source>
+			</trans-unit>
+			<trans-unit id="tab7" xml:space="preserve">
+				<source>Timeframe</source>
+			</trans-unit>
+			<trans-unit id="tab10" xml:space="preserve">
+				<source>Carrier information</source>
+			</trans-unit>
+			<trans-unit id="tab11" xml:space="preserve">
+				<source>Addional information</source>
+			</trans-unit>
+
+			<trans-unit id="title" xml:space="preserve">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="art" xml:space="preserve">
+				<source>Type of offer</source>
+			</trans-unit>
+			<trans-unit id="art.0" xml:space="preserve">
+				<source>-</source>
+			</trans-unit>
+			<trans-unit id="art.1" xml:space="preserve">
+				<source>Career orientation</source>
+			</trans-unit>
+			<trans-unit id="art.2" xml:space="preserve">
+				<source>Vocational preparation</source>
+			</trans-unit>
+			<trans-unit id="art.3" xml:space="preserve">
+				<source>Qualification</source>
+			</trans-unit>
+			<trans-unit id="art.4" xml:space="preserve">
+				<source>Education</source>
+			</trans-unit>
+			<trans-unit id="art.5" xml:space="preserve">
+				<source>Advice and support</source>
+			</trans-unit>
+			<trans-unit id="shortdescription" xml:space="preserve">
+				<source>Shortdescription</source>
+			</trans-unit>
+			<trans-unit id="aims" xml:space="preserve">
+				<source>Aims</source>
+			</trans-unit>	
+			<trans-unit id="aimgroup" xml:space="preserve">
+				<source>Target group(s)</source>
+			</trans-unit>	
+			<trans-unit id="occupationalarea">
+				<source>Occupational fields</source>
+			</trans-unit>
+			<trans-unit id="agestart">
+				<source>starting</source>
+			</trans-unit>
+			<trans-unit id="ageend">
+				<source>ending</source>
+			</trans-unit>
+			<trans-unit id="gender">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="gender.2">
+				<source>Male</source>
+			</trans-unit>
+			<trans-unit id="gender.1">
+				<source>Female</source>
+			</trans-unit>
+			<trans-unit id="gender.0">
+				<source>Not specified</source>
+			</trans-unit>	
+			<trans-unit id="migration">
+				<source>Migration background</source>
+			</trans-unit>
+			<trans-unit id="migration.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="migration.1">
+				<source>yes</source>
+			</trans-unit>
+			<trans-unit id="migration.2">
+				<source>no</source>
+			</trans-unit>
+			<trans-unit id="rights">
+				<source>Legal sphere</source>
+			</trans-unit>
+			<trans-unit id="rights.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="rights.1">
+				<source>SGB II</source>
+			</trans-unit>
+			<trans-unit id="rights.2">
+				<source>SGB III</source>
+			</trans-unit>
+			<trans-unit id="rights.3">
+				<source>SGB VIII</source>
+			</trans-unit>
+			<trans-unit id="school">
+				<source>Year of school attendance</source>
+			</trans-unit>
+			<trans-unit id="school.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="school.1">
+				<source>7-10</source>
+			</trans-unit>
+			<trans-unit id="school.2">
+				<source>Compulsory schooling fulfilled</source>
+			</trans-unit>
+			<trans-unit id="graduate">
+				<source>School-leaving certificate</source>
+			</trans-unit>
+			<trans-unit id="graduate.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="graduate.1">
+				<source>none</source>
+			</trans-unit>
+			<trans-unit id="graduate.2">
+				<source>HSA</source>
+			</trans-unit>
+			<trans-unit id="graduate.3">
+				<source>RSA</source>
+			</trans-unit>
+			<trans-unit id="graduate.4">
+				<source>Maturity/A-levels</source>
+			</trans-unit>
+			<trans-unit id="graduate.5">
+				<source>Special school certificate</source>
+			</trans-unit>	
+			<trans-unit id="ineducation">
+				<source>In Ausbildung</source>
+			</trans-unit>
+			<trans-unit id="ineducation.0">
+				<source>no matter</source>
+			</trans-unit>
+			<trans-unit id="ineducation.1">
+				<source>yes</source>
+			</trans-unit>
+			<trans-unit id="ineducation.2">
+				<source>no</source>
+			</trans-unit>			
+			<trans-unit id="duration">
+				<source>Duration (blank = unlimited)</source>
+			</trans-unit>
+			<trans-unit id="startoffer">
+				<source>Start of the offer</source>
+			</trans-unit>
+			<trans-unit id="registration">
+				<source>Registration (blank = at any time)</source>
+			</trans-unit>
+			<trans-unit id="finance">
+				<source>Remuneration/Financing</source>
+			</trans-unit>
+			<trans-unit id="name">
+				<source>Place of implementation 1</source>
+			</trans-unit>
+			<trans-unit id="address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="name2">
+				<source>Place of implementation 2</source>
+			</trans-unit>
+			<trans-unit id="address2">
+				<source>Address 2</source>
+			</trans-unit>
+			<trans-unit id="zip2">
+				<source>Zip 2</source>
+			</trans-unit>
+			<trans-unit id="city2">
+				<source>City 2</source>
+			</trans-unit>
+			<trans-unit id="person1">
+				<source>1. contact person</source>
+			</trans-unit>
+			<trans-unit id="phone1">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="email1">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="person2">
+				<source>2. contact person</source>
+			</trans-unit>
+			<trans-unit id="phone2">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="email2">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="person3">
+				<source>3. contact person</source>
+			</trans-unit>
+			<trans-unit id="phone3">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="email3">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="www1">
+				<source>1. website</source>
+			</trans-unit>
+			<trans-unit id="www2">
+				<source>2. website</source>
+			</trans-unit>
+			<trans-unit id="file">
+				<source>Fite</source>
+			</trans-unit>
+			<trans-unit id="info">
+				<source>Info</source>
+			</trans-unit>
+			<trans-unit id="carrier">
+				<source>Carrier</source>
+			</trans-unit>
+			
+			<trans-unit id="title">
+				<source>Titel</source>
+			</trans-unit>
+			<trans-unit id="address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="www">
+				<source>Website</source>
+			</trans-unit>
+			<trans-unit id="email1">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="email2">
+				<source>Email alternative 1</source>
+			</trans-unit>
+			<trans-unit id="email3">
+				<source>Email alternative 2</source>
+			</trans-unit>
+			<trans-unit id="email4">
+				<source>Email alternative 3</source>
+			</trans-unit>
+			<trans-unit id="email5">
+				<source>Email alternative 4</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Additional information</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

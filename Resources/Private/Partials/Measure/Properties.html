@@ -1,0 +1,151 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+	<div class="singleMaesure">
+		<h3>{measure.title}</h3>
+		<f:for each="{measure.carrier}" as="carrier"><h4>{carrier.title}</h4></f:for>
+
+		<div class="row">
+			<div class="measurecontent col-12 col-md-6">
+			<p>
+				<label><f:translate key="shortdescription" /></label><br />
+				<f:format.nl2br>{measure.shortdescription}</f:format.nl2br>
+			</p>
+			<p>
+				<label><f:translate key="aims" /></label><br />
+				<f:format.nl2br>{measure.aims}</f:format.nl2br>
+			</p>
+			<p>		
+				<label><f:translate key="aimgroup" /></label><br />
+				<f:format.html>{measure.aimgroup}</f:format.html>
+			</p>
+
+			<f:if condition="{measure.occupationalarea} != ''">
+				<f:then>
+					<p>
+						<label><f:translate key="occupationalarea" /></label><br />
+						<f:format.nl2br>{measure.occupationalarea}</f:format.nl2br>
+					</p>
+				</f:then>
+			</f:if>
+			
+			<f:if condition="{measure.info} != ''">
+				<f:then>
+				<p>
+					<label><f:translate key="info" /></label><br />
+					<f:format.nl2br><label>{measure.info}</f:format.nl2br>
+				</p>
+				</f:then>
+			</f:if>
+			
+		</div>
+			
+			
+			<div class="measureinfos col-12 col-md-6">
+				<f:if condition="{measure.name}">
+					<label><f:translate key="name" /></label><br />
+					<f:format.html>{measure.name}<br />{measure.address}<br />{measure.zip} {measure.city}</f:format.html>
+				</f:if>
+				
+				<f:if condition="{measure.name2} != ''">
+					<f:then>
+						<p>{measure.name2}<br />{measure.address2}<br />{measure.zip2} {measure.city2}</p>
+					</f:then>
+				</f:if>
+			
+				<f:if condition="{measure.duration}">
+					<label><f:translate key="duration" /></label><br />
+					<f:format.html>{measure.duration}</f:format.html>
+				</f:if>
+				
+				<f:if condition="{measure.startoffer} != ''">
+					<f:then>
+						<f:format.html><label><f:translate key="startoffer" /></label><br /><f:format.date format="d.m.Y">{measure.startoffer}</f:format.date></f:format.html>
+					</f:then>
+				</f:if>
+			
+				<f:if condition="{measure.registration}">
+					<label><f:translate key="registration" /></label><br />
+					<f:format.html><f:if condition="{measure.registration} == ''"><f:then>jederzeit</f:then><f:else><f:format.date format="d.m.Y">{measure.registration}</f:format.date></f:else></f:if></f:format.html><br />
+				</f:if>
+			
+				<f:if condition="{measure.finance}">
+					<label><f:translate key="finance" /></label><br />
+					<f:format.html>{measure.finance}</f:format.html> 
+				</f:if>
+			
+				<label><f:translate key="contact" /></label><br />
+
+				<f:if condition="{measure.person1}">	 
+					{measure.person1}<br />
+				</f:if>
+				
+				<f:if condition="{measure.phone1}">	
+					<label><f:translate key="phone" /></label>: {measure.phone1}<br />
+				</f:if>
+				
+				<f:if condition="{measure.email1}">	
+					<f:link.email class="link-mail" email="{measure.email1}">{measure.email1}</f:link.email><br /> 
+				</f:if>
+			
+				<f:if condition="{measure.person2}">	 
+					{measure.person2}<br />
+				</f:if>
+				
+				<f:if condition="{measure.phone2}">	
+					<label><f:translate key="phone" /></label>: {measure.phone2}<br />
+				</f:if>
+				
+				<f:if condition="{measure.email2}">	
+					<f:link.email class="link-mail" email="{measure.email2}">{measure.email2}</f:link.email><br /> 
+				</f:if>
+
+				<f:if condition="{measure.person3}">	 
+					{measure.person3}<br />
+				</f:if>
+				
+				<f:if condition="{measure.phone3}">	
+					<label><f:translate key="phone" /></label>: {measure.phone3}<br />
+				</f:if>
+				
+				<f:if condition="{measure.email3}">	
+					<f:link.email class="link-mail" email="{measure.email3}">{measure.email3}</f:link.email><br /> 
+				</f:if>
+				<f:if condition="{measure.www1} != ''">
+					<f:then>
+						<f:link.external class="link-web" target="_blank" uri="{measure.www1}">{measure.www1}</f:link.external><br />
+					</f:then>
+				</f:if>
+				<f:if condition="{measure.www2} != ''">
+					<f:then>
+						<f:link.external class="link-web" target="_blank" uri="{measure.www2}">{measure.www2}</f:link.external><br />
+					</f:then>
+				</f:if>
+				<p class="mt-2">
+					<label><f:translate key="carrier" /></label><br />
+					<f:for each="{measure.carrier}" as="carrier">
+						{carrier.title}<br />
+						{carrier.address}<br />
+						{carrier.zip} {carrier.city}
+					</f:for>
+				</p>
+				<f:if condition="{measure.file} != ''">
+					<f:then>
+						<f:format.html><label><f:translate key="download" /></label><br /><a href="{measure.file.originalResource.publicUrl}">Flyer</a></f:format.html>  
+					</f:then>
+				</f:if>
+			
+			<div class="extras mt-2">
+				<h4 class="mb-2"><f:translate key="searchfieds" /></h4>
+				<f:if condition="{measure.agestart} > '0'">
+					<f:translate key="age" />: {measure.agestart} <f:translate key="to" /> {measure.ageend}<br />
+				</f:if>
+				<label><f:translate key="gender" /></label>: <f:translate key="gender.{measure.gender}" /><br />
+				<label><f:translate key="migration" /></label>: <f:translate key="migration.{measure.migration}" /><br />
+				<label><f:translate key="rights" /></label>: <f:translate key="rights.{measure.rights}" /><br />
+				<label><f:translate key="school" /></label>: <f:translate key="school.{measure.school}" /><br />
+				<label><f:translate key="graduate" /></label>: <f:translate key="graduate.{measure.graduate}" /><br />
+				<label><f:translate key="ineducation" /></label>: <f:translate key="ineducation.{measure.ineducation}" /> 
+			</div>
+		</div>
+		
+	</div>
+</html>
